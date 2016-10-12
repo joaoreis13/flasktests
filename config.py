@@ -1,0 +1,1 @@
+CONFIG_VAR='Valor armazenado no config.'
