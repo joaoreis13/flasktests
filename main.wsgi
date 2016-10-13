@@ -1,2 +1,1 @@
-import sys
-from HelloWorld import ftHelloWorld as application
+from HelloWorld.HelloWorld import ftHelloWorld as application
