@@ -1,11 +1,11 @@
 from flask import Flask
 
-application = Flask(__name__)
-application.config.from_object('config')
+ftHelloWorld = Flask(__name__)
+ftHelloWorld.config.from_object('config')
 
-@application.route('/')
+@ftHelloWorld.route('/')
 def hello_world():
-	return "Helo World! fase 2"+application.config['CONFIG_VAR']
+	return "Helo World! fase 2"+ftHelloWorld.config['CONFIG_VAR']
 
 if __name__ == '__main__':
-	application.run()
+	ftHelloWorld.run()
