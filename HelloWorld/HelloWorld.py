@@ -7,7 +7,7 @@ ftHelloWorld.config.from_object('config')
 def hello_world():
     ret = jsonify( {"Helo World! fase 2 ":ftHelloWorld.config['CONFIG_VAR']} )
     ret.status_code = 202
-    ret.headers.pop['Server']
+    ret.headers.pop['server']
     return ret
 
 if __name__ == '__main__':
