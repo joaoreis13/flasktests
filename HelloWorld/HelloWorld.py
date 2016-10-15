@@ -8,6 +8,8 @@ def hello_world():
     ret = jsonify( {"Helo World! fase 2 ":ftHelloWorld.config['CONFIG_VAR']} )
     ret.status_code = 202
 
+    print(ret)
+
     return ret
 
 if __name__ == '__main__':
